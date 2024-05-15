@@ -1,0 +1,362 @@
+.formOpened {
+    width: 50rem;
+    height: 46.5rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 0px solid #FFF;
+    background: linear-gradient(109deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.06) 100%);
+    box-shadow: 0px 0px 44.018px -22.009px rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(44.018062591552734px);
+}
+
+@media (max-width: 480px) {
+    .formOpened {
+        width: 24.375rem;
+        height: 48.5rem;
+    }
+}
+
+
+.formOpenedContent {
+    margin: 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 480px) {
+    .formOpenedContent {
+        margin: 2.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.upperPart {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactUs {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media (max-width: 480px) {
+    .contactUs {
+        color: #FFF;
+        font-family: "Open Sans";
+        font-size: 1.375rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.0275rem;
+    }
+}
+
+.contactUsBody {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media (max-width: 480px) {
+    .contactUsBody {
+        margin-top: 0.5rem;
+        width: 80%;
+        color: #FFF;
+        font-family: "Open Sans";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.01rem;
+    }
+}
+
+.middlePart {
+    padding-top: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 480px) {
+    .middlePart {
+        padding-top: 2rem;
+    }
+}
+
+.pDetails {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media (max-width: 480px) {
+    .pDetails {
+        color: #FFF;
+        font-family: "Open Sans";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+
+.firstLastName {
+    margin-top: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+    .firstLastName {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+.firstName {
+    width: 18rem;
+    height: 3rem;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0;
+    border-radius: 0.375rem;
+    border: 1px solid #FFF;
+    background-color: transparent;
+}
+
+@media (max-width: 480px) {
+    .firstName {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 18.4375rem;
+        height: 2.875rem;
+        padding-left: 1rem;
+        color: #FFF;
+        font-family: "Open Sans";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.lastName {
+    width: 18rem;
+    height: 3rem;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0;
+    border-radius: 0.375rem;
+    border: 1px solid #FFF;
+    background-color: transparent;
+}
+
+@media (max-width: 480px) {
+    .lastName {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 18.4375rem;
+        height: 2.875rem;
+        padding-left: 1rem;
+        color: #FFF;
+        font-family: "Open Sans";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.emailPhoneNumber {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+    .emailPhoneNumber {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+.email {
+    width: 18rem;
+    height: 3rem;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0;
+    border-radius: 0.375rem;
+    border: 1px solid #FFF;
+    background-color: transparent;
+}
+
+@media (max-width: 480px) {
+    .email {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 18.4375rem;
+        height: 2.875rem;
+        padding-left: 1rem;
+        color: #FFF;
+        font-family: "Open Sans";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.buttonPhoneNumber {
+    width: 18rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 0.375rem;
+    border: 1px solid #FFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+}
+
+@media (max-width: 480px) {
+    .buttonPhoneNumber {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 18.4375rem;
+        height: 2.875rem;
+        padding-left: 1rem;
+        color: #FFF;
+        font-family: "Open Sans";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.countryArrow {
+    height: 100%;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-right: 1rem;
+    border-right: 2px solid white;
+}
+
+@media (max-width: 480px) {
+    .countryArrow {
+        margin-left: 0rem;
+    }
+}
+
+.phone {
+    margin-left: 1rem;
+    display: flex;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lowerPart {
+    padding-top: 2.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pMessage {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 1rem;
+}
+
+.tellUsMoreButton {
+    width: 34.9rem;
+    height: 10.5625rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+    display: flex;
+    padding: 1.5rem 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+@media (max-width: 480px) {
+    .tellUsMoreButton {
+        width: 16.375rem;
+        height: 6rem;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: "Open Sans";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 0.625rem;
+        border: 1px solid #FFF;
+    }
+}
+
+
+.sendBtnItself {
+    width: 9.9375rem;
+    height: 3.0625rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: transparent;
+}
